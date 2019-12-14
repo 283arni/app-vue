@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-col cols="8" v-if="!loading && myAds.length !== 0">
+      <v-col cols="md-8" v-if="!loading && myAds.length !== 0">
         <h1>All ad</h1>
         <v-card 
 
@@ -9,11 +9,11 @@
           v-for="slid of myAds"
           :key="slid.id"
         >
-          <v-row>
-            <v-col cols="4">
+          <v-row class="d-block d-sm-flex">
+            <v-col cols="sm-4">
               <v-img :src="slid.imageSrc"></v-img>
             </v-col>
-            <v-col cols="8" class="d-flex flex-column justify-space-between">
+            <v-col cols="sm-8" class="d-flex flex-column justify-space-between">
               <v-card-title>{{slid.title}}</v-card-title>
               <v-card-text>{{slid.description}}</v-card-text>
               

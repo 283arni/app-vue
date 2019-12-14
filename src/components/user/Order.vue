@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row class="justify-center">
-      <v-col cols="lg-6">
+      <v-col cols="md-6">
         <h1>Order</h1>
         <v-progress-circular
           v-if="loading"

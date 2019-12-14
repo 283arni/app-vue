@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row class="justify-center">
-      <v-col cols="lg-6">
+      <v-col cols="sm-8">
         <h1>New orders</h1>
         <v-form v-model="valid" ref="form">
           <v-text-field
