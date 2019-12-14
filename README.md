@@ -3,8 +3,8 @@
 ##  Project setup
 ```
 Установить node.js.
-$ git clone https://github.com/283arni/app-vuetify.git
-$ cd app-vuetify
+$ git clone https://github.com/283arni/app-vue.git
+$ cd app-vue
 $ npm i
 $ npm run serve
 ```
